@@ -168,7 +168,7 @@ export default function UnlockCompetition() {
               </ul>
             </div>
             <a href={card.link} target="_blank">        <button 
-              className={`w-[95%] m-auto py-6 rounded-lg flex items-center justify-center text-white ${
+              className={`w-[95%] m-auto py-6  flex items-center justify-center rounded-2xl text-white ${
                 card.id !== 6 
                   ? "bg-[#0096D7] hover:bg-[#007AAF]" 
                   : "bg-gray-400 cursor-not-allowed"
@@ -224,7 +224,7 @@ export default function UnlockCompetition() {
               />
               <button 
                 onClick={() => openModal(card)}
-                className={`rounded-lg w-[325px] h-[50px] lg:h-[75px] absolute top-[90%]   bg-white shadow-md text-[24px] leading-[40px] flex justify-center items-center   ${
+                className={`rounded-2xl w-[325px] h-[50px] lg:h-[75px] absolute top-[90%]   bg-white shadow-md text-[24px] leading-[40px] flex justify-center items-center   ${
                   card.id !== 6 ? "text-primary" : "text-red-500"
                 }`}
                 disabled={card.id === 6}

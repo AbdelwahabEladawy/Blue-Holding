@@ -18,7 +18,7 @@ export default function Hero() {
             </h1>
             <h2 className="text-white text-xl md:text-3xl">Who's Leading the Way?</h2>
 
-            <button className="bg-white m-auto mt-10 text-primary rounded-xl py-6 px-14 flex items-center justify-center text-2xl sm:text-3xl font-semibold mb-12 hover:bg-blue-50 transition-colors">
+            <button className="bg-white m-auto mt-10 text-primary rounded-2xl py-6 px-14 flex items-center justify-center text-2xl sm:text-3xl font-semibold mb-12 hover:bg-blue-50 transition-colors">
               <Rocket className="mr-2 sm:h-7 sm:w-7 w-5 h-5 text-primary" />
               Start Game
             </button>

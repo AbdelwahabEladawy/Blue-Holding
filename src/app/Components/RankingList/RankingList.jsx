@@ -28,15 +28,26 @@ export default function RankingList() {
               </p>
              </div>
               <div className="flex justify-center items-center">
+            
+
+
                 <button 
-                  onClick={toggleLeaderboard}
-                  className="w-62 h-62 rounded-full bg-radial from-[#0096D7] to-[#007AAF] flex-col justify-center items-center  lg:mt-10"
-                >
-                  <Image src={viewIcon} className="m-auto mb-4" alt="View Leaderboard" />
-                  <p className="px-8 m-auto text-white font-[500] text-[20px] leading-[28px]">
-                    View Full Leaderboard
-                  </p>
-                </button>
+  onClick={toggleLeaderboard}
+  className="w-62 h-62 rounded-full 
+    bg-gradient-to-br from-[#0096D7] to-[#007AAF] 
+    flex flex-col justify-center items-center 
+    transition-all duration-700 ease-in-out 
+    hover:from-[#0096D7] hover:to-[#0096D7]/50 
+    shadow-lg hover:shadow-xl 
+    transform 
+    mt-10
+    p-6"
+>
+  <Image src={viewIcon} className="m-auto mb-4" alt="View Leaderboard" />
+  <p className="px-8 m-auto text-white font-[500] text-[20px] leading-[28px]">
+    View Full Leaderboard
+  </p>
+</button>
               </div>
             </div>
 

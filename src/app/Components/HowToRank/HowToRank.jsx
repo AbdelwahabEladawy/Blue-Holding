@@ -5,6 +5,7 @@ import icon2 from "../../../assets/icons/howicon2.png";
 import icon3 from "../../../assets/icons/howicon3.png";
 import light from "../../../assets/icons/light.png";
 
+
 function HowToRank() {
   return (
     <div className="bg-[#000E22] py-16 px-4 relative overflow-hidden">
@@ -19,10 +20,10 @@ function HowToRank() {
       </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Score Big Card */}
-          <div className="group relative ">
+          <div className="group card relative ">
             <div className="absolute -inset-0.5  rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></div>
-            <div className="relative bg-transparent border border-[#0096D7] rounded-2xl p-8 text-center transition-all duration-300  h-full overflow-hidden">
-              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center  bg-gradient-to-r from-[#0096D7] to-[#0096D71A]/10 hover:bg-gradient-to-tr hover:from-[#0096D7] hover:to-[#0096D71A]/10  transition-all duration-800 " >
+            <div className="relative bg-transparent border border-[#0096D7] rounded-2xl p-8 text-center transition-all duration-800  h-full overflow-hidden">
+              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center light-bg cont   " >
                 {/* <div className=" flex justify-center items-center"></div> */}
                 <Image src={icon1} alt="Score Big" className="w-[75%] z-10 " />
               </div>
@@ -37,10 +38,10 @@ function HowToRank() {
           </div>
 
           {/* Fewer Trials Card */}
-          <div className="group relative">
+          <div className="group card  relative">
             <div className="absolute -inset-0.5  rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></div>
             <div className="relative bg-transparent border border-[#0096D7] rounded-2xl p-8 text-center transition-all duration-300  h-full overflow-hidden">
-              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center  bg-gradient-to-r from-[#0096D7] to-[#0096D71A]/10 hover:bg-gradient-to-tr hover:from-[#0096D7] hover:to-[#0096D71A]/10  transition-all duration-800 " >
+              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center  light-bg cont" >
                 {/* <div className=" flex justify-center items-center"></div> */}
                 <Image src={icon2} alt="fewer Trials" className="w-[75%] z-10 " />
               </div>
@@ -54,10 +55,10 @@ function HowToRank() {
           </div>
 
           {/* Beat the Clock Card */}
-          <div className="group relative">
+          <div className="group card relative">
             <div className="absolute -inset-0.5  rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl"></div>
             <div className="relative bg-transparent border border-[#0096D7] rounded-2xl p-8 text-center transition-all duration-300  h-full overflow-hidden">
-              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center  bg-gradient-to-r from-[#0096D7] to-[#0096D71A]/10 hover:bg-gradient-to-tr hover:from-[#0096D7] hover:to-[#0096D71A]/10  transition-all duration-800 " >
+              <div className=" mx-auto mb-6  w-[185px] h-[185px] rounded-full flex items-center justify-center  light-bg cont" >
                 {/* <div className=" flex justify-center items-center"></div> */}
                 <Image src={icon3} alt="Score Big" className="w-[75%] z-10 " />
               </div>

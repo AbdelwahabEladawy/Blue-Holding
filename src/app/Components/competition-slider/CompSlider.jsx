@@ -217,7 +217,7 @@ export default function CompSlider() {
               key={competitor.id} 
               className="w-[70%] flex-shrink-0 m-auto relative pt-10"
             >
-              <div className="border rounded-lg overflow-hidden shadow-sm mb-4">
+              <div className=" rounded-2xl overflow-hidden shadow-sm mb-4">
                 <div className="">
                   <Image 
                     src={competitor.image} 
@@ -276,14 +276,14 @@ export default function CompSlider() {
           )}
 
           {/* Competitors Slider */}
-          <div className="overflow-hidden w-full  mb-10">
-            <div className="flex space-x-4">
+          <div className="overflow-hidden w-full   mb-10">
+            <div className="flex space-x-4 px-10" >
               {sortedCompetitors.slice(startIndex, startIndex + 6).map((competitor) => (
                 <div 
                   key={competitor.id} 
-                  className="w-1/6 flex-shrink-0 relative pt-10"
+                  className="w-1/6 flex-shrink-0 relative pt-10 "
                 >
-                  <div className="border rounded-lg overflow-hidden shadow-sm">
+                  <div className=" rounded-2xl overflow-hidden shadow-sm mb-5 ">
                     <div className="">
                       <Image 
                         src={competitor.image} 

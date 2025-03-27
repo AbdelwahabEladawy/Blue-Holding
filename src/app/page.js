@@ -16,8 +16,8 @@ export default function Home() {
       <HeroSection />
       <div className="lg:px-16 sm:px-12 px-6 ">
         <RankingList />
-        <TopHighlights/>
       </div>
+        <TopHighlights/>
         <HowToRank/>
         <FAQ/>
         <Footer/>
